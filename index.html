@@ -1,0 +1,1517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> ICDM &ndash; Mandatory Accreditation Programme (MAP)</title>
+    <meta name="description"
+        content="Mandatory Accreditation Programme (MAP) incorporates the latest corporate governance principles and best practices to equip you with critical director skills...">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="{{url('assets/images/logo.jpeg')}}" />
+    <meta property="og:description"
+        content="Mandatory Accreditation Programme (MAP) incorporates the latest corporate governance principles and best practices to equip you with critical director skills..." />
+    <link rel="icon" type="image/png" href="{{url('assets/images/favicon icdm.ico')}}">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PC9MRBS');</script>
+    <!--Google Font link-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.0/fullcalendar.min.css">
+
+    <link rel="stylesheet" type="text/css"
+        href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function () {
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#252e39"
+                    },
+                    "button": {
+                        "background": "#14a7d0"
+                    }
+                },
+                "theme": "classic"
+            })
+        });
+    </script>
+
+    <link rel="stylesheet" href="{{ asset(mix('css/app2.css')) }}">
+    <style>
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            color: #27225d;
+        }
+
+        em {
+            color: #51545D;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: "Merriweather", serif;
+        }
+
+        p,
+        em {
+            font-family: "Montserrat", sans-serif;
+        }
+
+        table {
+            background-color: white;
+            margin-bottom: 0;
+            width: auto;
+        }
+
+        .icdm-blue {
+            color: #27225d;
+        }
+
+        .icdm-light-blue {
+            color: #1AA9E1;
+        }
+
+        .icdm-grey {
+            color: #51545D;
+        }
+
+        .icdm-light-grey {
+            color: #AEB3B6;
+        }
+
+        .icdm-navy-blue {
+            color: #001E76;
+        }
+
+        .icdm-light-navy {
+            color: #323496;
+        }
+
+        .programme-outline {
+            background-color: #a5b8d8;
+            padding: 3% 10%;
+        }
+
+        .starred-text {
+            font-size: 9px;
+            font-weight: 300 !important;
+        }
+
+        .vc-button {
+            height: 41px;
+            display: inline-flex;
+            align-items: center;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .bg-grey,
+        .btn-grey {
+            background-color: #f1f1f1;
+        }
+
+        .bg-icdmlightblue {
+            background-color: #1AA9E1;
+        }
+
+        .bg-white {
+            background-color: white;
+        }
+
+        .footer-quot {
+            font-size: 18px;
+        }
+
+        .btn {
+            box-sizing: border-box;
+            width: 100%;
+        }
+
+        .btn-text {
+            font-size: 24px;
+        }
+
+        .btn-second {
+            background-color: #001E76;
+        }
+
+        .content-desktop {
+            display: block;
+        }
+
+        .content-mobile {
+            display: none;
+        }
+
+        @media screen and (max-width: 768px) {
+            .vc-button {
+                height: 41px;
+                display: inline-flex;
+                align-items: center;
+                text-align: center;
+                font-size: 18px;
+            }
+
+            .footer-quot {
+                font-size: 14px;
+            }
+
+            .btn-text {
+                font-size: 18px;
+            }
+
+            .content-desktop {
+                display: none;
+            }
+
+            .content-mobile {
+                display: block;
+            }
+        }
+
+        .badge-completed {
+            background-color: #51545D;
+            color: whitesmoke;
+        }
+
+        .btn-completed,
+        .btn-fully-booked,
+        .btn-coming-soon {
+            background-color: #f84e4e;
+            color: white;
+        }
+
+        .btn-completed:hover {
+            background-color: #51545D;
+            color: white;
+        }
+
+        .badge-fully-booked {
+            background-color: #AEB3B6;
+            color: whitesmoke;
+        }
+
+        .btn-fully-booked:hover {
+            background-color: #AEB3B6;
+            color: white;
+        }
+
+        .badge-less-seat {
+            background-color: #1AA9E1;
+            color: white;
+        }
+
+        .badge-available {
+            background-color: #27225d;
+            color: white;
+        }
+
+        .badge-coming-soon {
+            background-color: pink;
+            color: #27225d;
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar-collapse">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC9MRBS" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+
+    <div class="text-center mx-auto" style="overflow: hidden;width: 100%;">
+        <!-- ICDM Logo -->
+        <div class="row">
+            <picture onclick="window.open('https://icdm.com.my')" style="cursor: pointer;">
+                <source srcset="https://icdm.com.my/storage/map/mobile/1-logo-panel_1.png" media="(max-width: 480px)">
+                <img style="width: 100%;height: auto;" src="https://icdm.com.my/storage/map/desktop/1-logo-panel_1.png"
+                    alt="ICDM Header">
+            </picture>
+        </div>
+        <!-- MAP Header -->
+        <div class="row">
+            <a href="#readytostart">
+                <picture>
+                    <source srcset="https://icdm.com.my/storage/map/mobile/2-main-banner-17112021_mobile.png"
+                        media="(max-width: 480px)">
+                    <img style="width: 100%;height: auto;"
+                        src="https://icdm.com.my/storage/map/desktop/2-main-banner-17112021.png" alt="MAP Header">
+                </picture>
+            </a>
+        </div>
+        <!-- Buttons -->
+        <div class="row mx-3 my-5">
+            <div class="col-3 align-self-center content-desktop">
+                <button type="button" disabled class="btn btn-grey disabled px-5 py-3"><span
+                        class="font-weight-bold icdm-blue btn-text">VIRTUAL | <br />IN-PERSON</span><br>
+                    <span class="starred-text">*SUBJECT TO CHANGE</span></button>
+            </div>
+            <div class="col-3 align-self-center content-desktop">
+                <button type="button" disabled class="btn btn-grey disabled px-5 py-3"><span
+                        class="font-weight-bold icdm-blue btn-text">3 HALF-DAYS | <br />1.5 DAYS</span><br>
+                    <span class="starred-text">*SUBJECT TO CHANGE</span></button>
+            </div>
+            <div class="col-3 align-self-center content-desktop">
+                <button type="button" disabled class="btn btn-grey disabled px-5 py-3"><span
+                        class="font-weight-bold icdm-blue btn-text">RM 2,750.00</span><br>
+                    <span class="starred-text">*EXCLUDING SST</span></button>
+            </div>
+            <div class="col-3 content-desktop">
+                <div class="row">
+                    <div class="col-12 align-self-center vc-button">
+                        <a href="#readytostart" class="btn btn-danger px-5 py-2">
+                            <span class="font-weight-bold text-white">REGISTER NOW</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    &nbsp;
+                </div>
+                <div class="row">
+                    <div class="col-12 align-self-center vc-button">
+                        <a href="https://pulse.icdm.com.my/wp-content/uploads/2022/12/map-brochure-7dec.pdf?utm_source=landingpage&utm_medium=brochure&utm_campaign=map"
+                            target="_blank" class="btn btn-second px-5 py-2">
+                            <span class="font-weight-bold text-white">AGENDA IN-PERSON</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    &nbsp;
+                </div>
+                <div class="row">
+                    <div class="col-12 align-self-center vc-button">
+                        <a href="https://pulse.icdm.com.my/wp-content/uploads/2022/12/MAP-Brochure-Virtual.pdf?utm_source=landingpage&utm_medium=brochure&utm_campaign=map"
+                            target="_blank" class="btn btn-second px-5 py-2">
+                            <span class="font-weight-bold text-white">AGENDA VIRTUAL</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    &nbsp;
+                </div>
+                <div class="row" style="height: 25%;">
+                    <div class="col-12 align-self-center vc-button">
+                        <a href="https://pulse.icdm.com.my/director-programmes?utm_source=icdm-pulse&utm_medium=map-landing"
+                            target="_blank" class="btn bg-icdmlightblue px-5 py-2">
+                            <span class="font-weight-bold text-white">VIEW ICDM PUBLIC PROGRAMMES</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mb-3 align-self-center content-mobile">
+                <button type="button" disabled class="btn btn-grey disabled px-5 py-3 text-center"><span
+                        class="font-weight-bold icdm-blue btn-text">VIRTUAL | IN-PERSON</span><br>
+                    <span class="starred-text">*SUBJECT TO CHANGE</span></button>
+            </div>
+            <div class="col-12 mb-3 align-self-center content-mobile">
+                <button type="button" disabled class="btn btn-grey disabled px-5 py-3 text-center"><span
+                        class="font-weight-bold icdm-blue btn-text">1.5 DAYS</span><br>
+                    <span class="starred-text">*SUBJECT TO CHANGE</span></button>
+            </div>
+            <div class="col-12 mb-3 align-self-center content-mobile">
+                <button type="button" disabled class="btn btn-grey disabled px-5 py-3 text-center"><span
+                        class="font-weight-bold icdm-blue btn-text">RM 2,750.00</span><br>
+                    <span class="starred-text">*EXCLUDING SST</span></button>
+            </div>
+            <div class="col-12 mb-3 align-self-center vc-button content-mobile">
+                <a href="#readytostart" class="btn btn-danger px-5 py-2">
+                    <span class="font-weight-bold text-white">REGISTER NOW</span>
+                </a>
+            </div>
+            <div class="col-12 mb-1 align-self-center vc-button content-mobile">
+                <a href="https://pulse.icdm.com.my/wp-content/uploads/2022/09/map-brochure-6sept2022_compressed.pdf?utm_source=map-landing&utm_medium=icdm-pulse"
+                    target="_blank" class="btn btn-second px-5 py-2">
+                    <span class="font-weight-bold text-white">DOWNLOAD BROCHURE</span>
+                </a>
+            </div>
+        </div>
+        <!-- Introduction -->
+        <div class="row">
+            <picture>
+                <source srcset="https://icdm.com.my/storage/map/mobile/4-introduction-para-17112021.png"
+                    media="(max-width: 480px)">
+                <img style="width: 100%;height: auto;"
+                    src="https://icdm.com.my/storage/map/desktop/4-introduction-para-17112021.png"
+                    alt="Introduction Paragraph">
+            </picture>
+        </div>
+        <!-- Learning Outcomes -->
+        <div class="row">
+            <!-- <picture>
+                <source srcset="https://icdm.com.my/storage/map/mobile/5-learning-outcomes-title-17112021.png"
+                    media="(max-width: 480px)">
+                <img style="width: 100%;height: auto;"
+                    src="https://icdm.com.my/storage/map/desktop/5-learning-aims-title-17112021.png"
+                    alt="Learning Outcomes">
+            </picture> -->
+            <div class="map-header">
+                <div class="map-header-text">
+                    <p>Learning Aims</p>
+                </div>
+            </div>
+        </div>
+        <!-- Learning Outcomes Body -->
+        <div class="row">
+            <picture>
+                <source srcset="https://icdm.com.my/storage/map/mobile/6-learning-outcomes-body-17112021.png"
+                    media="(max-width: 480px)">
+                <img style="width: 100%;height: auto;"
+                    src="https://icdm.com.my/storage/map/desktop/6-learning-aims-body-17112021.png"
+                    alt="Learning Outcomes Body">
+            </picture>
+        </div>
+        <!-- Programme Outline -->
+        <!-- <div class="row programme-outline">
+        <div class="col-12">
+            <h1 class="my-5 px-2 text-left">Programme Outline</h1>
+            <div>
+                <picture>
+                    <source srcset="https://icdm.com.my/storage/map/mobile/map_programme-outline-1.png" media="(max-width: 480px)">
+                    <img style="width: 100%;height: auto;" src="https://icdm.com.my/storage/map/desktop/map-programme-outline_physical-1.png" alt="Programme Day 1">
+                </picture>
+            </div>
+        </div>
+    </div>
+    <div class="row programme-outline">
+        <div class="col-12">
+            <picture>
+                <source srcset="https://icdm.com.my/storage/map/mobile/map_programme-outline-2.png" media="(max-width: 480px)">
+                <img style="width: 100%;height: auto;" src="https://icdm.com.my/storage/map/desktop/map-programme-outline_physical-2.png" alt="Programme Day 2">
+            </picture>
+        </div>
+    </div>
+    <div class="row programme-outline">
+        <div class="col-12 mb-5">
+            <p class="text-white text-left">Modules will cover related clauses and principles from the Companies Act 2016, the Malaysian Code on Corporate Governance 2021, Section 17A of the Malaysian Anti-Corruption Commission Act and the Capital Markets and Services Act 2007.</p>
+        </div>
+    </div> -->
+        <!-- Ready to Start -->
+        <div class="row" id="readytostart">
+            <div style="background-color: #13143f;"class="col-12">
+                <p>Ready to start the programmme ?</p>
+                <p>Choose session.</p>
+                <!-- <picture>
+                    <source srcset="https://icdm.com.my/storage/map/mobile/8-ready-to-start-17112021.png"
+                        media="(max-width: 480px)">
+                    <img style="width: 100%;height: auto;"
+                        src="https://icdm.com.my/storage/map/desktop/8-ready-to-start-17112021.png"
+                        alt="Ready To Start">
+                </picture> -->
+            </div>
+        </div>
+        <!-- Dates and Slots -->
+
+        <div class="row my-5">
+            <div class="col">&nbsp;</div>
+            <div class="card col-10 col-sm-3">
+                <div class="card-body text-left">
+                    <div class="py-3">
+                        <p class="card-title icdm-blue">Session #1 | Virtual</p>
+                        <h4 class="card-text font-weight-bold text-danger">7 &mdash; 9 February 2023</h4>
+                        <h4 class="card-text"><span class="badge badge-completed">Completed</span></h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-1">&nbsp;</div>
+            <div class="card col-10 col-sm-3">
+                <div class="card-body text-left">
+                    <div class="py-3">
+                        <p class="card-title icdm-blue">Session #2 | In-person</p>
+                        <h4 class="card-text font-weight-bold text-danger">7 &mdash; 8 March 2023</h4>
+                        <h4 class="card-text"><span class="badge badge-completed">Completed</span></h4>
+                    </div>
+                    <!--<a type="button" data-toggle="modal" data-target="#modalSession2" class="btn btn-danger font-weight-bold rounded-pill">REGISTER</a>-->
+                </div>
+            </div>
+            <div class="col">&nbsp;</div>
+        </div>
+
+        <div class="row my-5">
+            <div class="col">&nbsp;</div>
+            <div class="card col-10 col-sm-3">
+                <div class="card-body text-left">
+                    <div class="py-3">
+                        <p class="card-title icdm-blue">Session #3 | Virtual</p>
+                        <h4 class="card-text font-weight-bold text-danger">4 &mdash; 6 April 2023</h4>
+                        <!-- <h4 class="card-text"><span class="badge badge-fully-booked">Waiting List</span></h4> -->
+                        <h4 class="card-text"><span class="badge badge-completed">Completed</span></h4>
+                    </div>
+                    <!-- <a type="button" data-toggle="modal" data-target="#modalSession3" class="btn btn-danger font-weight-bold rounded-pill">REGISTER</a> -->
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-1">&nbsp;</div>
+            <div class="card col-10 col-sm-3">
+                <div class="card-body text-left">
+                    <div class="py-3">
+                        <p class="card-title icdm-blue">Session #4 | In-person</p>
+                        <h4 class="card-text font-weight-bold text-danger">11 &mdash; 12 May 2023</h4>
+                        <h4 class="card-text"><span class="badge badge-fully-booked">Waiting List</span></h4>
+                    </div>
+                    <a type="button" data-toggle="modal" data-target="#modalSession4"
+                        class="btn btn-danger font-weight-bold rounded-pill">REGISTER</a>
+                </div>
+            </div>
+            <div class="col">&nbsp;</div>
+        </div>
+
+        <div class="row my-5">
+            <div class="col">&nbsp;</div>
+            <div class="card col-10 col-sm-3">
+                <div class="card-body text-left">
+                    <div class="py-3">
+                        <p class="card-title icdm-blue">Session #5 | Virtual</p>
+                        <h4 class="card-text font-weight-bold text-danger">31 May, 1 &mdash; 2 June 2023</h4>
+                        <h4 class="card-text"><span class="badge badge-fully-booked">Waiting List</span></h4>
+                    </div>
+                    <a type="button" data-toggle="modal" data-target="#modalSession5"
+                        class="btn btn-danger font-weight-bold rounded-pill">REGISTER</a>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-sm-1">&nbsp;</div>
+            <div class="card col-10 col-sm-3">
+                <div class="card-body text-left">
+                    <div class="py-3">
+                        <p class="card-title icdm-blue">Session #6 | <strong>In-person</strong></p>
+                        <h4 class="card-text font-weight-bold text-danger">5 &mdash; 6 July 2023</h4>
+                        <h4 class="card-text"><span class="badge badge-available">Available</span></h4>
+                    </div>
+                    <a type="button" data-toggle="modal" data-target="#modalSession6"
+                        class="btn btn-danger font-weight-bold rounded-pill">REGISTER</a>
+                </div>
+            </div>
+            <div class="col">&nbsp;</div>
+        </div>
+        <div class="row my-5">
+            <div class="col">&nbsp;</div>
+            <div class="card col-10 col-sm-3">
+                <div class="card-body text-left">
+                    <div class="py-3">
+                        <p class="card-title icdm-blue">Session #7 | <strong>Virtual</strong></p>
+                        <h4 class="card-text font-weight-bold text-danger">28 &mdash; 30 Aug 2023</h4>
+                        <h4 class="card-text"><span class="badge badge-available">Available</span></h4>
+                    </div>
+                    <a type="button" data-toggle="modal" data-target="#modalSession7"
+                        class="btn btn-danger font-weight-bold rounded-pill">REGISTER</a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-1">&nbsp;</div>
+            <div class="card col-10 col-sm-3">
+                <div class="card-body text-left">
+                    <div class="py-3">
+                        <p class="card-title icdm-blue">Session #8 | <strong>In-person</strong></p>
+                        <h4 class="card-text font-weight-bold text-danger">26 &mdash; 27 Sep 2023</h4>
+                        <h4 class="card-text"><span class="badge badge-available">Available</span></h4>
+                    </div>
+                    <a type="button" data-toggle="modal" data-target="#modalSession8"
+                        class="btn btn-danger font-weight-bold rounded-pill">REGISTER</a>
+                </div>
+            </div>
+            <div class="col">&nbsp;</div>
+        </div>
+
+        <div class="row my-5">
+            <div class="col">&nbsp;</div>
+            <div class="card col-10 col-sm-3">
+                <div class="card-body text-left">
+                    <div class="py-3">
+                        <p class="card-title icdm-blue">Session #9 | <strong>Virtual</strong></p>
+                        <h4 class="card-text font-weight-bold text-danger">24 &mdash; 26 Oct 2023</h4>
+                        <h4 class="card-text"><span class="badge badge-available">Available</span></h4>
+                    </div>
+                    <a type="button" data-toggle="modal" data-target="#modalSession9"
+                        class="btn btn-danger font-weight-bold rounded-pill">REGISTER</a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-1">&nbsp;</div>
+            <div class="card col-10 col-sm-3">
+                <div class="card-body text-left">
+                    <div class="py-3">
+                        <p class="card-title icdm-blue">Session #10 | <strong>In-person</strong></p>
+                        <h4 class="card-text font-weight-bold text-danger">20 &mdash; 21 Nov 2023</h4>
+                        <h4 class="card-text"><span class="badge badge-available">Available</span></h4>
+                    </div>
+                    <a type="button" data-toggle="modal" data-target="#modalSession10"
+                        class="btn btn-danger font-weight-bold rounded-pill">REGISTER</a>
+                </div>
+            </div>
+            <div class="col">&nbsp;</div>
+        </div>
+
+        <!--  <div class="row my-5">
+        <div class="col">&nbsp;</div>
+        <div class="card col-10 col-sm-3">
+            <div class="card-body text-left">
+                <div class="py-3">
+                    <p class="card-title icdm-blue">Session #7 | <strong>Virtual</strong></p>
+                    <h4 class="card-text font-weight-bold text-danger">4 &mdash; 6 July 2022</h4>
+                    <h4 class="card-text"><span class="badge badge-completed">Completed</span></h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-1">&nbsp;</div>
+        <div class="card col-10 col-sm-3">
+            <div class="card-body text-left">
+                <div class="py-3">
+                    <p class="card-title icdm-blue">Session #8 | <strong>Virtual</strong></p>
+                    <h4 class="card-text font-weight-bold text-danger">12 &mdash; 14 Jul 2022</h4>
+                    <h4 class="card-text"><span class="badge badge-completed">Completed</span></h4>
+                </div>
+            </div>
+        </div>
+        <div class="col">&nbsp;</div>
+    </div>
+    <div class="row my-5">
+        <div class="col">&nbsp;</div>
+        <div class="card col-10 col-sm-3">
+            <div class="card-body text-left">
+                <div class="py-3">
+                    <p class="card-title icdm-blue">Session #9 | <strong>Virtual</strong></p>
+                    <h4 class="card-text font-weight-bold text-danger">23 &mdash; 25 Aug 2022</h4>
+                    <h4 class="card-text"><span class="badge badge-completed">Completed</span></h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-1">&nbsp;</div>
+        <div class="card col-10 col-sm-3">
+            <div class="card-body text-left">
+                <div class="py-3">
+                    <p class="card-title icdm-blue">Session #10 | <strong>Virtual</strong></p>
+                    <h4 class="card-text font-weight-bold text-danger">20 &mdash; 22 Sept 2022</h4>
+                    <h4 class="card-text"><span class="badge badge-completed">Completed</span></h4>
+                </div>
+            </div>
+        </div>
+        <div class="col">&nbsp;</div>
+    </div>
+    <div class="row my-5">
+        <div class="col">&nbsp;</div>
+        <div class="card col-10 col-sm-3">
+            <div class="card-body text-left">
+                <div class="py-3">
+                    <p class="card-title icdm-blue">Session #11 | <strong>Virtual</strong></p>
+                    <h4 class="card-text font-weight-bold text-danger">26 &mdash; 27 Oct 2022</h4>
+                    <h4 class="card-text"><span class="badge badge-completed">Completed</span></h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-1">&nbsp;</div>
+        <div class="card col-10 col-sm-3">
+            <div class="card-body text-left">
+                <div class="py-3">
+                    <p class="card-title icdm-blue">Session #12 | <strong>In-Person</strong></p>
+                    <h4 class="card-text font-weight-bold text-danger">21 &mdash; 22 Nov 2022</h4>
+                    <h4 class="card-text"><span class="badge badge-completed">Completed</span></h4>
+                </div>
+            </div>
+        </div>
+        <div class="col">&nbsp;</div>
+    </div>
+    <div class="row my-5">
+        <div class="col">&nbsp;</div>
+        <div class="card col-10 col-sm-3">
+            <div class="card-body text-left">
+                <div class="py-3">
+                    <p class="card-title icdm-blue">Session #13 | <strong>Virtual</strong></p>
+                    <h4 class="card-text font-weight-bold text-danger">5 &mdash; 7 Dec 2022</h4>
+                    <h4 class="card-text"><span class="badge badge-completed">Completed</span></h4>
+                </div>
+                
+            </div>
+        </div>
+        <div class="col">&nbsp;</div>
+    </div> -->
+        <p class="my-5 px-3">Do stay tuned for more available sessions soon.</p>
+        <!-- Facilitators -->
+        <div class="row">
+            <!-- <picture>
+                <source srcset="https://icdm.com.my/storage/map/mobile/10-meet-the-facilitators.png"
+                    media="(max-width: 480px)">
+                <img style="width: 100%;height: auto;"
+                    src="https://icdm.com.my/storage/map/desktop/10-meet-the-facilitators.png" alt="Facilitators">
+            </picture> -->
+            <div class="map-header">
+                <div class="map-header-text">
+                    <p>Meet The Facilitators</p>
+                </div>
+            </div>
+        </div>
+ 
+        <div class="row panelist-row">
+
+<div class="panelist-container">
+    <div class="panelist-left-column">
+        <img class="panelist-img" src="https://icdm.com.my//storage/map/desktop/speakers_diana-david.png"
+            alt="Diana David" />
+        <p class="panelist-name">Diana David</p>
+        <p class="image-description">Financial Times<br>
+Board Director<br>
+Programme<br>
+Faculty Member</p>
+    </div>
+    <div class="panelist-right-column">
+        <p class="description">Diana David is the author of Future Proof: Reinventing Work in the Age of Acceleration and an Adjunct
+Lecturer of Leadership at Hong Kong University Business School and her alma mater, Columbia Business
+School. A former Financial Times executive and founder of the Financial Times Non-Executive Directors
+Diploma in Asia, Diana now works with CEOs and board directors to enhance their leadership agility,
+influence, collaboration and resilience. Her clients have included the Mandarin Oriental Hotel Group,
+World Bank, Expedia, Asia Development Bank, AIA, JP Morgan, Citi and Credit Suisse. She began her
+career and leadership education as an assistant to Dr. Henry Kissinger.</p>
+        <p class="description">Diana has served across private company, NGO, government and advisory boards with experience on
+governance, nomination, CEO succession and executive committees and has held committee chair and
+vice chair roles. She is an active participant in Women Corporate Directors and The Women's Foundation
+30% Club, empowering women at all levels to lead and contribute.</p>
+        <p class="description"> Diana is an International speaker and writer on leadership, governance, and strategic foresight for Harvard
+Business Review, Nikkei Asia, TEDx, Asia Corporate Governance Association, Warner Media, Li & Fung
+Innovation Centre, Agricultural Bank of China, The Conference Board and YPO Dubai & Hong Kong.She was also one of the speakers featured at ICDM's signature PowerTalk series.</p>
+<img class="ft-bdp" src="https://icdm.com.my//storage/map/desktop/FT_BDP.png
+"
+            alt="FT Board Directpr Programme" />
+    </div>
+
+</div>
+</div>
+            <!-- <picture onclick="window.open('https://www.bdp.ft.com/')" style="cursor: pointer;">
+                <source srcset="https://icdm.com.my/storage/map/mobile/MAP-Diana_David_2-11.png"
+                    media="(max-width: 480px)">
+                <img style="width: 100%;height: auto;"
+                    src="https://icdm.com.my/storage/map/desktop/map_facilitator-diana_david.png" alt="Diana David">
+            </picture> -->
+      
+        <div class="row panelist-row">
+        <div class="panelist-container">
+    <div class="panelist-left-column">
+        <img class="panelist-img" src="https://icdm.com.my//storage/map/desktop/Shai-Ganu-v2-crop.jpg"
+            alt="Shai Ganu" />
+        <p class="panelist-name">Shai Ganu</p>
+        <p class="image-description">ICDM Faculty & Member <br>Managing Director, <br>
+Global Leader —<br>
+Executive<br>
+Compensation &<br>
+Board Advisory<br>
+Willis Towers Watson</p>
+    </div>
+    <div class="panelist-right-column">
+        <p class="description">Shai Ganu is passionate about enhancing board effectiveness, combating climate change, ensuring
+cognitive diversity on boards, embedding ESG priorities, and driving meaningful behavioural change
+through incentives and human capital governance.</p>
+        <p class="description">Shai is WTW's Global Leader for Executive Compensation & Board Advisory business. He leads a team of
+over 500 exceptional consultants, across 40 countries, who are trusted advisors to clients on issues related
+to board and executive compensation, performance management and incentives, board effectiveness,
+organisation transformation, future of work, and human-capital governance. Based in Singapore, he has
+extensive experience working closely with the Boards and management teams of some of the largest
+companies in the world. He is a trusted advisor to more than 100 Boards, Remuneration Committees,
+Nomination Committees, and Sustainability Committees. He specialises in banking, insurance, real estate,
+and telecommunications industries, and works extensively with sovereign wealth funds, private equity,
+and family businesses.</p>
+        <p class="description">Shai is also an associate university lecturer, faculty member at director associations in the region - and
+teaches courses related on Remuneration, Nomination, Talent Management, and Sustainability (ESG)
+matters. He serves on Boards and HR Committees of leading companies and not-for-profit organisations
+in the region. He is a Fellow and Governing Council member of the Singapore Institute of Directors (SID),
+chairs its Partnerships Committee and is also a member of its ESG Committee. He is also a member of the
+global Governing Board of Climate Governance Initiative, a founding member of the ASEAN Climate
+Governance Network, and a Steering Committee member of Climate Governance Singapore.</p>
+<p class="description">As an ICDM Faculty, Shai has conducted the “The Role of the Nomination and Remuneration Committee in
+Human Capital Management” programme and spoken at ICDM's signature PowerTalk Series as well as
+webinars. Shai was also a speaker at ICDM's inaugural International Directors Summit, our facilitator for
+ICDM's signature programme “Introduction to Corporate Directorship (ICD)"as well as a lead facilitator for
+CDM's board evaluation. He is also our selected expert facilitator for “Ask an Expert”, an on-demand hourly
+session by ICDM's group of subject matter experts - to support companies in navigating through change,
+disruption, risks, challenges and uncertainties within their business and economic environment by
+providing strategic advice and guidance to actionable plans, especially during the recovery and rebuilding
+phase post pandemic.</p>
+
+    </div>
+
+</div>
+            <!-- <picture>
+                <source srcset="https://icdm.com.my/storage/map/mobile/shai_ganu_2.png" media="(max-width: 480px)">
+                <img style="width: 100%;height: auto;"
+                    src="https://icdm.com.my/storage/map/desktop/map_facilitator-shai_ganu.png" alt="Shai Ganu">
+            </picture> -->
+        </div>
+        <div class="row panelist-row">
+
+        <div class="panelist-container">
+    <div class="panelist-left-column">
+        <img class="panelist-img" src="https://icdm.com.my//storage/map/desktop/cheryl-khor.jpg"
+            alt="Cheryl Khor" />
+        <p class="panelist-name">Cheryl Khor</p>
+        <p class="image-description">ICDM Faculty And Fellow<br></p>
+    </div>
+    <div class="panelist-right-column">
+        <p class="description">Cheryl Khor is Faculty Member and Fellow of ICDM. Cheryl sits as board member, audit chair and
+sustainability committee of companies in the banking, insurance, technology and industrial & consumer
+products sectors. She specialises on subjects relating to corporate governance, risk management and
+internal control for board effectiveness. Cheryl has more than 20 years of experience covering financial,
+operational and internal audits as well as governance, controls and risk assessments for clients across a
+broad range of industries. Specifically, she has been involved in numerous process improvements, and
+controls transformation projects. An active media contributor and with a number of published papers,
+Cheryl is a familiar face in numerous panels, seminars, workshops and talks on good governance, and
+sustainability among others.</p>
+        <p class="description">She has served large companies in a broad range of industry sectors including infrastructure, healthcare,
+construction, property development, asset management and consumer business. She also led and project managed various engagements in internal audit, corporate governance, board effectiveness and
+succession, operational audits, IPOs, due diligence, enterprise risk management, SOX 404 implementation, business process review, controls transformation and review of policies.</p>
+        <p class="description"> As a faculty member of ICDM, Cheryl is one of our main facilitators for our signature “Introduction to
+Corporate Directorship” programme and MCCG sessions for Malaysian directors, as well as the lead
+facilitator for board evaluations under ICDM for its corporate clients across various industries.</p>
+
+
+    </div>
+
+</div>
+
+
+            <!-- <picture>
+                <source srcset="https://icdm.com.my/storage/map/mobile/map_facilitator-cheryl_khor.mobile.png"
+                    media="(max-width: 480px)">
+                <img style="width: 100%;height: auto;"
+                    src="https://icdm.com.my/storage/map/desktop/map_facilitator-cheryl_khor.png" alt="Cheryl Khor">
+            </picture> -->
+        </div>
+        <div class="row panelist-row">
+        <div class="panelist-container">
+    <div class="panelist-left-column">
+        <img class="panelist-img" src="https://icdm.com.my//storage/map/desktop/munir-abdulaziz-crop.jpg"
+            alt="Munir Abdul Aziz" />
+        <p class="panelist-name">Munir Abdul Aziz</p>
+        <p class="image-description">Managing Partner,<br>
+Principal, Mergers &<br>
+Acquisitions of<br>
+Wong & Partners,<br>
+Malaysia</p>
+    </div>
+    <div class="panelist-right-column">
+        <p class="description">Munir Abdul Aziz is the managing partner of Wong & Partners. He is a partner in the Corporate,
+Commercial and Securities Practice Group of Wong & Partners and has been in practice since 1998 in
+mergers and acquisitions, corporate reorganisations, capital markets work, venture capital and private
+equity, joint ventures and general commercial transactions. As a member of ICDM Faculty, Munir has
+delivered a series of programmes for ICDM Public Programme and Corporate Clients. His focus areas cover
+board of director's fiduciary, legal and M&A.</p>
+        <p class="description">Munir has represented a number of corporations based in Malaysia, the US, Japan and Europe in takeovers,
+acquisitions, disposals of shares and assets of Malaysian and European companies. He has also worked on
+corporate reorganisations and de-mergers involving leading publicly listed Malaysian companies. He has
+also been involved in domestic and international securities transactions including bond offerings and IPOs.
+Munir has worked in the London and Melbourne offices of Baker & McKenzie International.</p>
+        <p class="description">Munir was named Managing Partner of the Year in 2021 and Dealmaker of the Year in 2017 and 2020 at the
+Asian Legal Business Malaysia Law Awards. He is also recognised as a distinguished practitioner by leading
+legal directories including Chambers & Partners and Legal500, where he is named a Leading Individual by
+Legal 500 Asia Pacific for Corporate and M&A (since 2017) and Capital Markets (since 2018).</p>
+
+
+    </div>
+    </div>
+  
+            <!-- <picture>
+                <source srcset="https://icdm.com.my/storage/map/mobile/map_facilitator_munir-abdul-aziz.png"
+                    media="(max-width: 480px)">
+                <img style="width: 100%;height: auto;"
+                    src="https://icdm.com.my/storage/map/desktop/map_facilitator_munir-abdul-aziz.png"
+                    alt="Munir Abdul Aziz">
+            </picture> -->
+        </div>
+        <div class="row panelist-row">
+        <div class="panelist-container">
+    <div class="panelist-left-column">
+        <img class="panelist-img" src="https://icdm.com.my//storage/map/desktop/boo-huey-fang.jpg"
+            alt="Boo Huey Fang" />
+        <p class="panelist-name">Boo Huey Fang</p>
+        <p class="image-description">Regulation<br>
+Bursa Malaysia Berhad<br></p>
+    </div>
+    <div style="align-self: flex-start;"class="panelist-right-column">
+        <p class="description">Boo Huey Fang graduated from the University of Malaya in 1999. She joined Bursa Malaysia Berhad
+in 2003 and was appointed as the Head of Issuers Enforcement in 2008. She is mainly responsible for
+undertaking and supervising the enforcement actions against listed companies, directors and
+advisers for breaches of the Listing Requirements and de-listing of financially distressed companies.</p>
+        <p class="description">In addition, she is involved in the review and formulation of the enforcement policies and procedures,
+and amendments to the Listing Requirements.</p>
+
+    </div>
+    </div>
+            <!-- <picture>
+                <source srcset="https://icdm.com.my/storage/map/mobile/map_facilitator-boo_huey_fang.mobile.png"
+                    media="(max-width: 480px)">
+                <img style="width: 100%;height: auto;"
+                    src="https://icdm.com.my/storage/map/desktop/facilitator-boo_huey_fang.png" alt="Boo Huey Fang">
+            </picture> -->
+        </div>
+        <div class="row panelist-row">
+        <div class="panelist-container">
+    <div class="panelist-left-column">
+        <img class="panelist-img" src="https://icdm.com.my//storage/map/desktop/tiffany-yan.png"
+            alt="Boo Huey Fang" />
+        <p class="panelist-name">Tiffany Yan</p>
+        <p class="image-description">Regulation<br>
+Bursa Malaysia Berhad<br></p>
+    </div>
+    <div style="align-self: flex-start;"class="panelist-right-column">
+        <p class="description">Tiffany Yan is presently the Head of Listing Advisory in Bursa Malaysia Berhad. Listing Advisory is
+specialising in providing guidance and advice to listed companies, investment bankers and company
+secretaries in interpreting and applying the Listing Requirements (“LR”).</p>
+        <p class="description">In this regard, Tiffany has been instrumental in enhancing the advisory services to listed companies by
+maintaining an open communication channel with them. She has also been significantly involved in
+capital market development initiatives relating to the LR. Among others, she has experience reviewing,
+proposing and providing feedback on developmental work in the listed company space through her
+proactive involvement in various working groups for the enhancements to the LR and COVID-19 relief
+measures. She is also instrumental in providing support on regulatory issues and updating on regulatory
+developments to the Listing Division. Her contribution has significantly encouraged better compliance
+and promote greater conformance in practices of listed companies.</p>
+<p class="description">She is also an Associate Member of The Malaysian Institute of Chartered Secretaries and Administrators
+and had served in various leading corporate services management companies prior to joining Bursa. She
+has more than 17 years of extensive experience and in-depth knowledge in corporate advisory work in the
+capital market industry.</p>
+
+    </div>
+    </div>
+            <!-- <picture>
+                <source srcset="https://icdm.com.my/storage/map/mobile/map_facilitator-tiffany_yan.mobile.png"
+                    media="(max-width: 480px)">
+                <img style="width: 100%;height: auto;"
+                    src="https://icdm.com.my/storage/map/desktop/map_facilitator-tiffany_yan.png" alt="Tiffany Yan">
+            </picture> -->
+            
+        </div>
+        <!-- Panelists -->
+        <div class="row header-map">
+            <!-- <picture>
+                <source srcset="https://icdm.com.my/storage/map/mobile/MAP-panelists.mobile_intro.png"
+                    media="(max-width: 480px)">
+                <img style="width: 100%;height: auto;"
+                    src="https://icdm.com.my/storage/map/desktop/MAP-panelists.desktop_intro.png" alt="Panelists">
+            </picture> -->
+            <div class="map-header">
+                <div class="map-header-text">
+                    <p>Invited Panelists</p>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row panelist-row">
+
+            <div class="panelist-container">
+                <div class="panelist-left-column">
+                    <img class="panelist-img" src="https://icdm.com.my//storage/map/desktop/tunku-alizakri.jpg"
+                        alt="Tunku Alizakri" />
+                    <p class="panelist-name">Tunku Alizakri bin Raja Muhammad Alias</p>
+                    <p class="image-description">Chairman, Malaysia Venture Capital
+                        Management Berhad (MAVCAP)</p>
+                </div>
+                <div class="panelist-right-column">
+                    <p class="description">Alizakri Alias is the Chairman of Malaysia Venture Capital Management Berhad
+                        (MAVCAP) which is tasked
+                        by the Government to develop and add value to the VC ecosystem of Malaysia. Alizakri also sits
+                        on the
+                        board of notable public listed companies such as Sime Darby Plantation Berhad, IHH Healthcare
+                        Berhad
+                        and Bumi Armada Berhad as well as Prudential BSN Takaful Berhad.</p>
+                    <p class="description">Alizakri was the Chief EPF Officer of the Employees Provident Fund (EPF)
+                        which is one of the largest
+                        provident funds in the world (USD250bn AUM as of Dec 2020). He joined the EPF on 1January 2014
+                        as the
+                        Deputy Chief Executive Officer for the Strategy Division, overseeing national policies on social
+                        protection,
+                        and developing EPF products and services. He was also an ex-officio member of the EPF Board and
+                        Investment Panel.</p>
+                    <p class="description"> Alizakri has extensive experience covering fund management and the financial
+                        industry, public sector
+                        administration and central banking, media and telecommunications, property development,
+                        plantations
+                        and oil and gas. He is also passionate in the areas of social security where he served as Vice
+                        Chair of
+                        Technical Commission on Organisation, Management & Innovation of International Social Security
+                        Association (ISSA) and the Secretary-General of ASEAN Social Security Association (ASSA).</p>
+                </div>
+            </div>
+            <!--<picture>-->
+            <!--    <source srcset="https://icdm.com.my/storage/map/mobile/MAP-panelists.mobile_tunku-alizakri_1.png" media="(max-width: 480px)">-->
+            <!--    <img style="width: 100%;height: auto;" src="https://icdm.com.my/storage/map/desktop/MAP-panelists.desktop_tunku-alizakri.png" alt="Tunku Alizakri">-->
+            <!--</picture>-->
+        </div>
+        <div class="row panelist-row">
+            <!--<picture>-->
+            <!--    <source srcset="https://icdm.com.my/storage/map/mobile/panelists-dr_jayanthi.png" media="(max-width: 480px)">-->
+            <!--    <img style="width: 100%;height: auto;" src="https://icdm.com.my/storage/map/desktop/panelists-dr_jayanthi.png" alt="Dr Jayanthi Desan">-->
+            <!--</picture>-->
+            <div class="panelist-container">
+                <div class="panelist-left-column">
+                    <img class="panelist-img" src="https://icdm.com.my/storage/map/desktop/jayanthi-desan.jpg"
+                        alt="Dr Jayanti Desan" />
+                    <p class="panelist-name">Dr. Jayanthi Desan</p>
+                    <p class="image-description">ICDM Faculty & Fellow, Founder and Managing Director of Synergio.</p>
+                </div>
+                <div class="panelist-right-column">
+                    <p class="description">Jayanthi is the founder and Managing Director of Synergio, one of Malaysia’s
+                        leading sustainability strategy consultancies. She has over 18 years’ experience in the area of
+                        sustainability and governance, having shaped and influenced some of
+                        the sustainability best practices in the region, covering sectors involving banking and finance,
+                        utilities, oil and gas, plantation, property, construction, FMCG and industrial conglomerates.
+                    </p>
+                    <p class="description">As an experienced speaker and trainer, she
+                        has conducted training and lectures for institutions across Asia in various EGS areas, spanning
+                        disclosure, value mapping as well as frameworks and policies. A faculty member of ICDM, she
+                        co-facilitates in courses for Directors on ESG
+                        leadership.</p>
+                    <p class="description"> Jayanthi’s work is fuelled by her belief in ‘business for good’ and how all
+                        businesses must invest in social and environmental capital in order to build longer term
+                        economic capital successfully. A pioneer in the field of sustainability,
+                        she has been part of multi-stakeholder engagement in the development of the Global Reporting
+                        Initiative (GRI). She has an LLB and LLM (Hons) from University of Malaya as well as a PhD in
+                        the area of standards of sustainability from Queen
+                        Mary, University of London.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="row panelist-row">
+
+            <div class="panelist-container">
+                <div class="panelist-left-column">
+                    <img class="panelist-img" src=" https://icdm.com.my//storage/map/desktop/Dr%20Nesadurai.jpg"
+                        alt="Dr Nesadurai Kalanithi" />
+                    <p class="panelist-name">Dr Nesadurai Kalanithi</p>
+                    <p class="image-description">Co-Founder Climate Governance & Board of Director I0I Corp Bhd,Malaysia
+                    </p>
+                </div>
+                <div class="panelist-right-column">
+                    <p class="description">Dr Kalanithi is currently a Non-Executive Director at IOI Corporation Berhad.
+                        She was formerly an INED at
+                        FGV Holdings Bhd. She is also co-founder of Climate Governance Malaysia (CGM) and a member of
+                        the
+                        Steering Committee of the CEO's Action Network (CAN). She is an ESG advocate and recently
+                        completed
+                        The Oxford University's Leading Sustainable Corporations Programme at the Said Business School.
+                        A
+                        biochemist by training, she has more than 35 years of experience in the oil palm industry. She
+                        started
+
+                        her career in 1984, as a Senior Principal Research Scientist and Head of the Nutrition Group in
+                        the
+                        Malaysian Palm Oil Board (MPOB), where she studied the effects of palm oil and its
+                        phytonutrients in food,
+                        nutrition, and health. She has several patents and publications to her credit and is known for
+                        her
+                        contribution to the field of research in tocotrienols and breast cancer.</p>
+                    <p class="description">Between 2003 to 2004, she was a Visiting Research Scientist at the Centre for
+                        Animal Biotechnology,
+                        University of Melbourne, Australia. Dr Kalanithi in 2008 was made the Director of Product
+                        Development
+                        and Advisory Services. In 2013, she was appointed Minister at the Malaysian Embassy and Mission
+                        to the
+                        EU based in Brussels, Belgium and was the Regional Manager for the MPOB in Europe, a position
+                        she held
+                        up till 2017. Dr. Kalanithi was awarded the Gold Medal for excellence in research by MPOB in
+                        2001 and won
+                        the prestigious World Intellectual Property Organization's (WIPO) Best Woman Inventor in 2006.
+                        She was
+                        a founding member of the Malaysian Chapter of the Society for Free Radical Research (SFRR) and
+                        was the
+                        Past-President for SFRR Asia. Dr Kalanithi holds a PhD in Biochemistry & Molecular Biology, and
+                        a Master
+                        of Science in Food Science from the University of Reading, United Kingdom.
+                    </p>
+                </div>
+            </div>
+
+            <!--<picture>-->
+            <!--    <source srcset="https://icdm.com.my/storage/map/mobile/MAP.mobile_dr-kala.png" media="(max-width: 480px)">-->
+            <!--    <img style="width: 100%;height: auto;" src="https://icdm.com.my/storage/map/desktop/MAP.desktop_dr-kala.png" alt="Dr Kalanithi">-->
+            <!--</picture>-->
+        </div>
+        <!-- Have A Questions?-->
+        <div class="row">
+            <div class="col-12">
+                <picture onclick="window.open('mailto:map@icdm.com.my')" style="cursor: pointer;">
+                    <source srcset="https://icdm.com.my/storage/map/mobile/have-a-question_1.png"
+                        media="(max-width: 480px)">
+                    <img style="width: 100%;height: auto;"
+                        src="https://icdm.com.my/storage/map/desktop/have-a-question_1.png" alt="Have a Questions?">
+                </picture>
+            </div>
+        </div>
+        <!-- Join Membership-->
+        <div class="row">
+            <div class="col-12">
+                <picture
+                    onclick="window.open('https://icdm.com.my/membership/join-now?utm_source=map-landing&utm_medium=mainweb')"
+                    style="cursor: pointer;">
+                    <source srcset="https://icdm.com.my/storage/map/mobile/15-why-stop-here.png"
+                        media="(max-width: 480px)">
+                    <img style="width: 100%;height: auto;"
+                        src="https://icdm.com.my/storage/map/desktop/15-why-stop-here-.png" alt="Join Now">
+                </picture>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="row">
+            <div class="col-12 col-sm-3 bg-grey">
+                <a href="https://icdm.com.my" target="_blank">
+                    <img style="width: 100%;height: auto;"
+                        src="https://icdm.com.my/storage/map/desktop/ICDM-MAP-Footer-Logo-01.png"
+                        alt="ICDM Logo Footer">
+                </a>
+                <div class="mx-auto my-5 justify-content-center">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/company/icdm-malaysia" target="_blank"><img
+                                    src="https://icdm.com.my/assets/images/linkedinblueicon.png"
+                                    style="width: 50px;"></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/ICDMalaysia" target="_blank"><img
+                                    src="https://icdm.com.my/assets/images/twitterblueicon.png"
+                                    style="width: 50px;"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-sm-9 bg-white px-5">
+                <p class="icdm-blue mb-5 mt-5 text-left footer-quot"><strong>Institute of Corporate Directors Malaysia
+                        (ICDM) is the approved organiser of the Mandatory Accreditation Programme (MAP), which is
+                        prescribed by Bursa Malaysia for board directors under the Listing Requirements, Paragraph 15.08
+                        and Practice Note 5.</strong></p>
+                <p class="text-left footer-quot">ICDM is the one-stop centre for all board and director needs, dedicated
+                    to empowering boards and directors with the right skills, knowledge and mindset as well as digital
+                    competencies to enhance their professionalism and effectiveness. Spearheaded by the Securities
+                    Commission Malaysia and supported by Bank Negara Malaysia, Bursa Malaysia and the Capital Market
+                    Development Fund, ICDM serves as the national institute of directors and aims to be the leading
+                    influence of excellence in governance.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL -->
+    <!-- Session 1 -->
+    <div class="modal fade" id="modalSession1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true" data-backdrop="false">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content text-center">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title">Session #1 | 7 &mdash; 9 February 2023</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="text-align: left;padding: 30px 30px;background-color: white;">
+                    <div class="rounded" style="border: solid #bd0000 2px;margin: 15px;padding: 10px;">
+                        <em style="color: #c90303;">We have reached the maximum registration capacity at this moment.
+                            Should there be any last-minute CANCELLATIONS, we will notify you to confirm your
+                            participation. Please proceed to register and choose "pay later" option to register your
+                            interest.</em>
+                    </div>
+                    <input type="checkbox" id="day1tnc"> By clicking the register button, I hereby agree to and accept
+                    the <a href="https://pulse.icdm.com.my/map-terms-conditions/" target="_blank">Terms & Conditions</a>
+                    <div class="row mt-3 mb-2">
+                        <div class="col">&nbsp;</div>
+                        <div class="col-4"><button type="button" disabled id="register1"
+                                onclick="window.open('https://form.evenesis.com/bursa-map-2023-01')"
+                                class="btn btn-primary">Register Now</button></div>
+                        <div class="col">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Session 1 -->
+
+    <!-- Session 2 -->
+    <div class="modal fade" id="modalSession2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true" data-backdrop="false">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content text-center">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title">Session #2 | 7 &mdash; 8 March 2023</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="text-align: left;padding: 30px 30px;background-color: white;">
+                    <div class="rounded" style="border: solid #bd0000 2px;margin: 15px;padding: 10px;">
+                        <em style="color: #c90303;">We have reached the maximum registration capacity at this moment.
+                            Should there be any last-minute CANCELLATIONS, we will notify you to confirm your
+                            participation. Please proceed to register and choose "pay later" option to register your
+                            interest.</em>
+                    </div>
+                    <input type="checkbox" id="day2tnc"> By clicking the register button, I hereby agree to and accept
+                    the <a href="https://pulse.icdm.com.my/map-terms-conditions/" target="_blank">Terms & Conditions</a>
+                    <div class="row mt-3 mb-2">
+                        <div class="col">&nbsp;</div>
+                        <div class="col-4"><button type="button" disabled id="register2"
+                                onclick="window.open('https://form.evenesis.com/bursa-map-2023-02')"
+                                class="btn btn-primary">Register Now</button></div>
+                        <div class="col">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Session 2 -->
+
+    <!-- Session 3 -->
+    <div class="modal fade" id="modalSession3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true" data-backdrop="false">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content text-center">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title">Session #3 | 4 &mdash; 6 April 2023</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="text-align: left;padding: 30px 30px;background-color: white;">
+                    <div class="rounded" style="border: solid #bd0000 2px;margin: 15px;padding: 10px;">
+                        <em style="color: #c90303;">We have reached the maximum registration capacity at this moment.
+                            Should there be any last-minute CANCELLATIONS, we will notify you to confirm your
+                            participation. Please proceed to register and choose "pay later" option to register your
+                            interest.</em>
+                    </div>
+                    <input type="checkbox" id="day3tnc"> By clicking the register button, I hereby agree to and accept
+                    the <a href="https://pulse.icdm.com.my/map-terms-conditions/" target="_blank">Terms & Conditions</a>
+                    <div class="row mt-3 mb-2">
+                        <div class="col">&nbsp;</div>
+                        <div class="col-4"><button type="button" disabled id="register3"
+                                onclick="window.open('https://form.evenesis.com/bursa-map-2023-03')"
+                                class="btn btn-primary">Register Now</button></div>
+                        <div class="col">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Session 3 -->
+
+    <!-- Session 4 -->
+    <div class="modal fade" id="modalSession4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true" data-backdrop="false">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content text-center">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title">Session #4 | 11 &mdash; 12 May 2023</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="text-align: left;padding: 30px 30px;background-color: white;">
+                    <div class="rounded" style="border: solid #bd0000 2px;margin: 15px;padding: 10px;">
+                        <em style="color: #c90303;">We have reached the maximum registration capacity at this moment.
+                            Should there be any last-minute CANCELLATIONS, we will notify you to confirm your
+                            participation. Please proceed to register and choose "pay later" option to register your
+                            interest.</em>
+                    </div>
+                    <input type="checkbox" id="day4tnc"> By clicking the register button, I hereby agree to and accept
+                    the <a href="https://pulse.icdm.com.my/map-terms-conditions/" target="_blank">Terms & Conditions</a>
+                    <div class="row mt-3 mb-2">
+                        <div class="col">&nbsp;</div>
+                        <div class="col-4"><button type="button" disabled id="register4"
+                                onclick="window.open('https://form.evenesis.com/bursa-map-2023-04')"
+                                class="btn btn-primary">Register Now</button></div>
+                        <div class="col">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Session 4 -->
+
+    <!-- Session 5 -->
+    <div class="modal fade" id="modalSession5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true" data-backdrop="false">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content text-center">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title">Session #5 | 31 May, 1 &mdash; 2 June 2023</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="text-align: left;padding: 30px 30px;background-color: white;">
+                    <div class="rounded" style="border: solid #bd0000 2px;margin: 15px;padding: 10px;">
+                        <em style="color: #c90303;">We have reached the maximum registration capacity at this moment.
+                            Should there be any last-minute CANCELLATIONS, we will notify you to confirm your
+                            participation. Please proceed to register and choose "pay later" option to register your
+                            interest.</em>
+                    </div>
+                    <input type="checkbox" id="day5tnc"> By clicking the register button, I hereby agree to and accept
+                    the <a href="https://pulse.icdm.com.my/map-terms-conditions/" target="_blank">Terms & Conditions</a>
+                    <div class="row mt-3 mb-2">
+                        <div class="col">&nbsp;</div>
+                        <div class="col-4"><button type="button" disabled id="register5"
+                                onclick="window.open('https://form.evenesis.com/bursa-map-2023-05')"
+                                class="btn btn-primary">Register Now</button></div>
+                        <div class="col">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Session 5 -->
+    <!-- Session 6 -->
+    <div class="modal fade" id="modalSession6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true" data-backdrop="false">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content text-center">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title">Session #6 | 5 &mdash; 6 July 2023</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="text-align: left;padding: 30px 30px;background-color: white;">
+                    <input type="checkbox" id="day6tnc"> By clicking the register button, I hereby agree to and accept
+                    the <a href="https://pulse.icdm.com.my/map-terms-conditions/" target="_blank">Terms & Conditions</a>
+                    <div class="row mt-3 mb-2">
+                        <div class="col">&nbsp;</div>
+                        <div class="col-4"><button type="button" disabled id="register6"
+                                onclick="window.open('https://form.evenesis.com/bursa-map-2023-06')"
+                                class="btn btn-primary">Register Now</button></div>
+                        <div class="col">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Session 6 -->
+
+    <!-- Session 7 -->
+    <div class="modal fade" id="modalSession7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true" data-backdrop="false">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content text-center">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title">Session #7 | 28 &mdash; 30 Aug 2023</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="text-align: left;padding: 30px 30px;background-color: white;">
+                    <input type="checkbox" id="day7tnc"> By clicking the register button, I hereby agree to and accept
+                    the <a href="https://pulse.icdm.com.my/map-terms-conditions/" target="_blank">Terms & Conditions</a>
+                    <div class="row mt-3 mb-2">
+                        <div class="col">&nbsp;</div>
+                        <div class="col-4"><button type="button" disabled id="register7"
+                                onclick="window.open('https://form.evenesis.com/bursa-map-2023-07')"
+                                class="btn btn-primary">Register Now</button></div>
+                        <div class="col">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Session 7 -->
+
+    <!-- Session 8 -->
+    <div class="modal fade" id="modalSession8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true" data-backdrop="false">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content text-center">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title">Session #8 | 26 &mdash; 27 Sep 2023</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="text-align: left;padding: 30px 30px;background-color: white;">
+                    <input type="checkbox" id="day8tnc"> By clicking the register button, I hereby agree to and accept
+                    the <a href="https://pulse.icdm.com.my/map-terms-conditions/" target="_blank">Terms & Conditions</a>
+                    <div class="row mt-3 mb-2">
+                        <div class="col">&nbsp;</div>
+                        <div class="col-4"><button type="button" disabled id="register8"
+                                onclick="window.open('https://form.evenesis.com/bursa-map-2023-08')"
+                                class="btn btn-primary">Register Now</button></div>
+                        <div class="col">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Session 8 -->
+
+    <!-- Session 9 -->
+    <div class="modal fade" id="modalSession9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true" data-backdrop="false">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content text-center">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title">Session #9 | 24 &mdash; 26 Oct 2023</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="text-align: left;padding: 30px 30px;background-color: white;">
+                    <input type="checkbox" id="day9tnc"> By clicking the register button, I hereby agree to and accept
+                    the <a href="https://pulse.icdm.com.my/map-terms-conditions/" target="_blank">Terms & Conditions</a>
+                    <div class="row mt-3 mb-2">
+                        <div class="col">&nbsp;</div>
+                        <div class="col-4"><button type="button" disabled id="register9"
+                                onclick="window.open('https://form.evenesis.com/bursa-map-2023-09')"
+                                class="btn btn-primary">Register Now</button></div>
+                        <div class="col">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Session 9 -->
+
+    <!-- Session 10 -->
+    <div class="modal fade" id="modalSession10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true" data-backdrop="false">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content text-center">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title">Session #10 | 20 &mdash; 21 Nov 2023</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="text-align: left;padding: 30px 30px;background-color: white;">
+                    <input type="checkbox" id="day10tnc"> By clicking the register button, I hereby agree to and accept
+                    the <a href="https://pulse.icdm.com.my/map-terms-conditions/" target="_blank">Terms & Conditions</a>
+                    <div class="row mt-3 mb-2">
+                        <div class="col">&nbsp;</div>
+                        <div class="col-4"><button type="button" disabled id="register10"
+                                onclick="window.open('https://form.evenesis.com/bursa-map-2023-10')"
+                                class="btn btn-primary">Register Now</button></div>
+                        <div class="col">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Session 10 -->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+    <!--Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5d98153d6c1dde20ed051e97/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <script>
+        function validateDay1TNC() {
+            if (document.getElementById('day1tnc').checked) {
+                document.getElementById('register1').disabled = false;
+            } else {
+                document.getElementById('register1').disabled = true;
+            }
+        }
+        function validateDay2TNC() {
+            if (document.getElementById('day2tnc').checked) {
+                document.getElementById('register2').disabled = false;
+            } else {
+                document.getElementById('register2').disabled = true;
+            }
+        }
+        function validateDay3TNC() {
+            if (document.getElementById('day3tnc').checked) {
+                document.getElementById('register3').disabled = false;
+            } else {
+                document.getElementById('register3').disabled = true;
+            }
+        }
+        function validateDay4TNC() {
+            if (document.getElementById('day4tnc').checked) {
+                document.getElementById('register4').disabled = false;
+            } else {
+                document.getElementById('register4').disabled = true;
+            }
+        }
+        function validateDay5TNC() {
+            if (document.getElementById('day5tnc').checked) {
+                document.getElementById('register5').disabled = false;
+            } else {
+                document.getElementById('register5').disabled = true;
+            }
+        }
+        function validateDay6TNC() {
+            if (document.getElementById('day6tnc').checked) {
+                document.getElementById('register6').disabled = false;
+            } else {
+                document.getElementById('register6').disabled = true;
+            }
+        }
+        function validateDay7TNC() {
+            if (document.getElementById('day7tnc').checked) {
+                document.getElementById('register7').disabled = false;
+            } else {
+                document.getElementById('register7').disabled = true;
+            }
+        }
+        function validateDay8TNC() {
+            if (document.getElementById('day8tnc').checked) {
+                document.getElementById('register8').disabled = false;
+            } else {
+                document.getElementById('register8').disabled = true;
+            }
+        }
+        function validateDay9TNC() {
+            if (document.getElementById('day9tnc').checked) {
+                document.getElementById('register9').disabled = false;
+            } else {
+                document.getElementById('register9').disabled = true;
+            }
+        }
+        function validateDay10TNC() {
+            if (document.getElementById('day10tnc').checked) {
+                document.getElementById('register10').disabled = false;
+            } else {
+                document.getElementById('register10').disabled = true;
+            }
+        }
+        document.getElementById('day1tnc').addEventListener('change', validateDay1TNC);
+        document.getElementById('day2tnc').addEventListener('change', validateDay2TNC);
+        document.getElementById('day3tnc').addEventListener('change', validateDay3TNC);
+        document.getElementById('day4tnc').addEventListener('change', validateDay4TNC);
+        document.getElementById('day5tnc').addEventListener('change', validateDay5TNC);
+        document.getElementById('day6tnc').addEventListener('change', validateDay6TNC);
+        document.getElementById('day7tnc').addEventListener('change', validateDay7TNC);
+        document.getElementById('day8tnc').addEventListener('change', validateDay8TNC);
+        document.getElementById('day9tnc').addEventListener('change', validateDay9TNC);
+        document.getElementById('day10tnc').addEventListener('change', validateDay10TNC);
+    </script>
+    </div>
+</body>
+
+</html>
