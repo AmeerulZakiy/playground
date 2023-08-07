@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* CSS Styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            /* font-family: Arial, sans-serif; */
+        }
+
+        thead {
+            background-color: #2980b9;
+            color: white;
+        }
+
+        tbody tr {
+            background-color: #f9f9f9;
+        }
+
+        th,
+        td {
+            padding: 5px;
+            text-align: center;
+            border: 1px solid #ccc;
+            font-size: 12px;
+        }
+
+        td {
+            color: #000;
+        }
+
+        th:first-child,
+        td:first-child {
+            text-align: left;
+        }
+
+        ul {
+            columns: 2;
+            -webkit-columns: 2;
+            -moz-columns: 2;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HTML Table -->
+    <table>
+        <thead>
+            <tr>
+                <th style="background-color: #fff; border: none;">&nbsp;</th>
+                <th colspan="2">AFFILIATE </th>
+                <th rowspan="2">MEMBER*</th>
+                <th rowspan="2">FELLOW*</th>
+                <th rowspan="2">HONORARY FELLOW</th>
+            </tr>
+            <tr>
+                <th style="background-color: #fff; border: none;">&nbsp;</th>
+                <th>Student</th>
+                <th>Adult</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Admission Criteria</strong></td>
+                <td>Undergraduate and above</td>
+                <td>Any working adults</td>
+                <td>Currently a director with selected company type in Malaysia or abroad</td>
+                <td>At least 10 years' directorship experience with selected company type in Malaysia or abroad</td>
+                <td>By invitation only</td>
+            </tr>
+            <tr>
+                <td><strong>Post-Nominal Criteria</strong><br><br>(to carry after full name)</td>
+                <td colspan="2"> Not applicable</td>
+                <td>ICDM</td>
+                <td>ICDM(F)</td>
+                <td>ICDM(HF)</td>
+            </tr>
+            <tr>
+                <td><strong>Voting Rights</strong></td>
+                <td>No</td>
+                <td>No</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td><strong>Joining Fee</strong> (One-time, non-refundable)</td>
+                <td>Waived</td>
+                <td>RM500</td>
+                <td>RM500</td>
+                <td>RM500</td>
+                <td>Waived</td>
+            </tr>
+            <tr>
+                <td><strong>Annual Fee</strong></td>
+                <td>RM50</td>
+                <td>RM300</td>
+                <td>RM500</td>
+                <td>RM800</td>
+                <td>Waived</td>
+            </tr>
+        </tbody>
+    </table>
+    <p style="font-weight: bold;">**Selected Company Type includes:</p>
+    <div>
+        <ul>
+            <li>Public companies (listed and non-listed)</li>
+            <li>Holding and subsidiary of listed companies</li>
+            <li>Financial Institutions; Licensed Intermediaries</li>
+            <li>Statutory Bodies;</li>
+            <li>GLICs, GLCs, SOEs, MOF Inc. Companies</li>
+            <li>Private companies of a certain revenue size:
+                <ul>
+                    <li>Manufacturing: at least RM15 million</li>
+                    <li>Other Sectors: at least RM3 million</li>
+                </ul>
+            </li>
+            <li>Any other organization deemed appropriate by the Membership Committee.</li>
+        </ul>
+    </div>
+
+
+    <!-- Table real one -->
+    <table class="table-benefits">
+        <thead>
+            <tr>
+                <th style="background-color: #fff; border: none;">&nbsp;</th>
+                <th colspan="2">AFFILIATE</th>
+                <th rowspan="2">MEMBER*</th>
+                <th rowspan="2">FELLOW*</th>
+                <th rowspan="2">HONORARY FELLOW</th>
+            </tr>
+            <tr>
+                <th style="background-color: #fff; border: none;">&nbsp;</th>
+                <th>Student</th>
+                <th>Adult</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Admission Criteria</strong></td>
+                <td>Undergraduate and above</td>
+                <td>Any working adults</td>
+                <td>Currently a director with selected company type in Malaysia or abroad</td>
+                <td>At least 10 years' directorship experience with selected company type in Malaysia or abroad</td>
+                <td>By invitation only</td>
+            </tr>
+            <tr>
+                <td><strong>Post-Nominal Criteria</strong><br /><br />(to carry after full name)</td>
+                <td colspan="2">Not applicable</td>
+                <td>ICDM</td>
+                <td>ICDM(F)</td>
+                <td>ICDM(HF)</td>
+            </tr>
+            <tr>
+                <td><strong>Voting Rights</strong></td>
+                <td>No</td>
+                <td>No</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td><strong>Joining Fee</strong> (One-time, non-refundable)</td>
+                <td>Waived</td>
+                <td>RM500</td>
+                <td>RM500</td>
+                <td>RM500</td>
+                <td>Waived</td>
+            </tr>
+            <tr>
+                <td><strong>Annual Fee</strong></td>
+                <td>RM50</td>
+                <td>RM300</td>
+                <td>RM500</td>
+                <td>RM800</td>
+                <td>Waived</td>
+            </tr>
+        </tbody>
+    </table>
+    <p style="font-weight: bold; padding-top: 10px;">**Selected Company Type includes:</p>
+    <div style="display: flex; gap: 10px;">
+        <ul class="benefits-list-no-gap">
+            <li>Public companies(listed and non listed)</li>
+            <li>Holding and subsidiary of listed companies</li>
+            <li>Financial Institutions; Licensed Intermediaries</li>
+            <li>Statutory Bodies;</li>
+            <li>GLICs, GLCs, SOESs, MOF Inc. Companies</li>
+        </ul>
+        <ul class="benefits-list-no-gap">
+            <li>Private companies of a certain revenue size:</li>
+            <ul class="custom-list">
+                <li>Manufactring: at least RM15 mil</li>
+                <li>Other Sectors: at leat RM3 mil</li>
+            </ul>
+            <li>Any other organisation deemed appropiate by Membership Committee.</li>
+        </ul>
+    </div>
+</body>
+
+</html>
