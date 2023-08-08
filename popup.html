@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* Style for the background overlay */
+  .custom-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 9998;
+  }
+
+  /* Style for the popup */
+  .custom-popup {
+    /* display: none; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .custom-popup.show {
+    opacity: 1;
+  }
+
+  /* Style for the triggering image */
+  .custom-trigger-image {
+    cursor: pointer;
+  }
+
+  /* Style for the close button */
+  .custom-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<!-- Triggering image -->
+<img src="first_image.jpg" alt="Click me" class="custom-trigger-image" data-popup-image="second_image.jpg">
+
+<!-- Background overlay -->
+<div class="custom-overlay" id="custom-overlay"></div>
+
+<!-- Popup container -->
+<div class="custom-popup" id="custom-popupContainer">
+  <span class="custom-close-button" id="custom-closeButton">&times;</span>
+  <img src="" alt="Popup Image" id="custom-popupImage">
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Get references to the elements
+  var overlay = document.getElementById("custom-overlay");
+  var popupContainer = document.getElementById("custom-popupContainer");
+  var popupImage = document.getElementById("custom-popupImage");
+  var closeButton = document.getElementById("custom-closeButton");
+
+  // Function to show the popup
+  function showPopup(imageSrc) {
+    popupImage.src = imageSrc;
+    overlay.style.display = "block";
+    popupContainer.classList.add("show");
+    
+    // Add click event listener to close button to hide the popup
+    closeButton.addEventListener("click", hidePopup);
+  }
+
+  // Function to hide the popup
+  function hidePopup() {
+    popupContainer.classList.remove("show");
+    overlay.style.display = "none";
+    
+    // Remove click event listener from close button
+    closeButton.removeEventListener("click", hidePopup);
+  }
+
+  // Add click event listeners to each trigger image
+  var triggerImages = document.querySelectorAll(".custom-trigger-image");
+  triggerImages.forEach(function(triggerImage) {
+    triggerImage.addEventListener("click", function() {
+      var popupImageSrc = this.getAttribute("data-popup-image");
+      showPopup(popupImageSrc);
+    });
+  });
+
+  // Add click event listener to overlay to close the popup
+  overlay.addEventListener("click", hidePopup);
+});
+</script>
+
+</body>
+</html>
