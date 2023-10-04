@@ -5,6 +5,12 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/* .pricing-table-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
 .pricing-title {
     text-align: center;
     padding: 20px;
@@ -12,27 +18,41 @@
 
 .pricing-table-container {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     padding: 20px;
     justify-content: center;
     background-image: url(img/Circle-Logo-PNG-Photo.png);
     background-repeat: no-repeat;
-    background-size: 26%;
+    background-size: 30%;
     background-position-x: 23px;
-    background-position-y: 6px
+    background-position-y: 0px
 }
 
 .pricing-table {
     background-color: #fff;
     border-collapse: collapse;
+    flex: 1;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     padding: 30px;
-    width: 33%;
+    /* width: 33%; */
+    max-width: 500px;
+    /* align-self: flex-end; */
+    /* justify-self: center; */
+   flex-basis: calc(33.33% - 20px);  /* Adjust the width as needed */
+    /* overflow: hidden; */
+
 
 }
 
+
 .pricing-header {
-    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 155px;
+   
 }
 
 
@@ -40,12 +60,12 @@
     font-weight: bold;
     font-size: 20px;
 }
-
-.pricing-price {
-    font-size: 25px;
-    font-weight: bold;
-    /* padding-top: 20px; */
+.pricing-header p:nth-child(2) {
+    font-weight: initial;
+    font-size: 16px;
 }
+
+
 
 .add-info {
     padding-bottom: 20px;
@@ -56,21 +76,21 @@
     font-weight: bold;
 }
 
-.add-info span {
-    font-size: 14px;
+/* .add-info span {
+    font-size: 16px;
     color: #959496;
-}
-
+} */
+/* 
 .add-info p {
     padding: 3px 0;
-}
+} */
 
 hr {
     margin: 10px 0;
 }
 
 .pricing-price span {
-    font-size: 14px;
+    font-size: 16px;
     color: #959496;
 }
 
@@ -89,7 +109,7 @@ hr {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    margin: 20px auto 30px auto;
+    /* margin: 20px auto 30px auto; */
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     /* width: 250px; */
 }
@@ -101,8 +121,14 @@ hr {
 }
 
 .pricing-description p {
-    height: 50px;
+    /* height: 50px; */
 
+}
+
+.pricing-features {
+    /* display: flex;
+    flex-direction: column;
+    align-self: flex-end; */
 }
 
 .pricing-features ul {
@@ -123,7 +149,7 @@ hr {
     /* Space for the arrow */
     margin-bottom: 10px;
     /* padding: 7px 0; */
-    font-size: 14px;
+    font-size: 16px;
     line-height: 21px;
 }
 
@@ -173,6 +199,7 @@ hr {
 .right-bg {
     background-position-x: 80%;
     background-position-y: bottom;
+    z-index: 999;
 }
 
 /* POPUP  */
@@ -234,7 +261,7 @@ hr {
     gap: 10px;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
-    width: 45%;
+    width: 60%;
 
 
 }
@@ -315,8 +342,8 @@ hr {
     background-color: #25245d;
 }
 
-.two h1 span {
-    font-size: 13px;
+/* .two h1 span {
+    font-size: 100px;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -324,7 +351,7 @@ hr {
     padding-left: 0.25em;
     color: rgba(0, 0, 0, 0.4);
     padding-bottom: 10px;
-}
+} */
 
 .alt-two h1 {
     text-align: center;
@@ -353,7 +380,7 @@ h1 {
 
 h1 span {
     display: block;
-    font-size: 0.5em;
+    /* font-size: 0.5em; */
     line-height: 1.3;
 }
 
@@ -377,23 +404,133 @@ h1 em {
 .table-add-info {
     border-collapse: collapse;
     width: 100%;
-    height: 36vh;
+    margin-top: 20px;
+    /* height: 36vh; */
 }
 
 .table-add-info th,
 td {
-    padding: 10px 0;
+    padding: 20px 0;
     /* text-align: left; */
     border-bottom: 1px solid #959496;
     /* Orange border for table cells */
-font-size: 14px;
+    font-size: 16px;
 }
 
-tr{
-    height: 80px;
+tr {
+    /* height: 105px; */
 }
 
 
 .w-40 {
     width: 40%;
 }
+
+.icon-iod {
+    width: 20px;
+    margin: 10px;
+}
+
+.renewal-p{
+    text-align: justify;
+}
+.renewal-p ul li {
+    padding: 5px 0;
+}
+.h-requirement {
+    height: 160px;
+}
+.h-package {
+    height: 80px;
+}
+
+@media only screen and (max-width: 1400px) {
+
+    .table-add-info th,
+    td {
+        /* font-size: 12px; */
+    }
+
+    .w-40 {
+        width: 30%;
+    }
+
+    tr {
+        /* height: 117px; */
+    }
+
+    .icon-list li {
+        /* font-size: 12px; */
+        margin-bottom: 5px;
+    }
+
+    .pricing-description p {
+        /* font-size: 14px; */
+    }
+
+    .footnote {
+        width: 55%;
+        font-size: 14px;
+    }
+    .pricing-header p:nth-child(2) {
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width: 1250px) {
+    .pricing-description p {
+        height: 70px;
+    }
+
+    .pricing-description a,
+    .pricing-register-btn {
+        margin: 0;
+    }
+
+    .w-40 {
+        width: 37%;
+    }
+
+    .pricing-features p {
+        /* font-size: 13px; */
+    }
+
+    .pricing-table {
+        flex-basis: calc(50% - 20px); 
+    }
+
+  
+}
+
+
+@media only screen and (max-width: 800px) {
+    .pricing-table-container {
+        display: block;
+    }
+
+    .pricing-table {
+        width: 80%;
+        margin: 30px auto;
+
+    }
+
+    .footnote{
+        width: 100%;
+    }
+
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-item {
+    flex-basis: calc(33.33% - 20px); /* Adjust the width as needed */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
